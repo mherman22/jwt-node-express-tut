@@ -1,3 +1,5 @@
+### create user
+
 POST http://localhost:4001/register HTTP/1.1
 content-type: application/json
 
@@ -5,10 +7,10 @@ content-type: application/json
     "first_name":"Sheenah", 
     "last_name":"aryndah",
     "email":"sheenaharyndah33@gmail.com",
-    "password":"Herman!23_ug"
+    "password":"Herman!236666"
 }
 
-###
+### login user
 
 POST http://localhost:4001/login HTTP/1.1
 content-type: application/json
@@ -16,5 +18,14 @@ content-type: application/json
 {
     "email":"sheenaharyndah33@gmail.com",
     "password":"Herman!23_ug"
+}
+
+### get posts
+
+POST http://localhost:4001/ HTTP/1.1
+content-type: application/json
+
+{
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjMzNmQ0MTVjZjBjZDdmNDZiZGJhMWE3IiwiZW1haWwiOiJzaGVlbmFoYXJ5bmRhaDMzQGdtYWlsLmNvbSIsImlhdCI6MTY2NDU0NDc4MCwiZXhwIjoxNjY0NTUxOTgwfQ.k3lDL-zRI6fC4AtiGujOAjTFxUHkxdCva1uL8OtCV8E"
 }
 

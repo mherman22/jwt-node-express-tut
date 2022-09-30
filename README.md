@@ -30,3 +30,5 @@ This is a simple implementation of jwt authentication using;-
 - Then enter `require('crypto').randomBytes(64).toString('hex')`.
 - Press Enter.
 - Repeat step number 3 to generate the refresh token
+
+- To test the end points, go to https://github.com/mherman22/jwt-node-express-tut/blob/master/requests/requests.rest and run send the request
