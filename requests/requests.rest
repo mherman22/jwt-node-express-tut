@@ -1,0 +1,20 @@
+POST http://localhost:4001/register HTTP/1.1
+content-type: application/json
+
+{
+    "first_name":"Sheenah", 
+    "last_name":"aryndah",
+    "email":"sheenaharyndah33@gmail.com",
+    "password":"Herman!23_ug"
+}
+
+###
+
+POST http://localhost:4001/login HTTP/1.1
+content-type: application/json
+
+{
+    "email":"sheenaharyndah33@gmail.com",
+    "password":"Herman!23_ug"
+}
+
